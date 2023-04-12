@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     ),
   );
@@ -16,7 +17,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // 배경색
-      backgroundColor: Colors.orange,
+      // backgroundColor: Colors.orange,
+      backgroundColor: Color(0xFFF99231),
       // mainAxis(주축)Alignment(정렬)
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
